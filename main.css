@@ -1,0 +1,264 @@
+@font-face {
+    font-family: patron;
+    src: url("fonts/PatronPersonalUseRegular-ywy4Y.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: arialRound;
+    src: url("/fonts/ARLRDBD.TTF") format("truetype");
+}
+
+@font-face {
+    font-family: varela;
+    src: url("/fonts/VarelaRound-Regular.ttf") format("truetype");
+}
+
+body {
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+}
+
+.menu {
+    color: rgb(255, 255, 255);
+    display: flex;
+    font-family: patron;
+    justify-content: center;
+    font-size: 3.5vh;
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 25px;
+    text-decoration: none;
+}
+
+.menu ul li a {
+    color: aqua;
+    text-decoration: none;
+}
+
+.home {
+    color: rgb(255, 255, 255);
+    font-family: patron;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.text {
+    color: rgb(255, 255, 255);
+    font-family: patron;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    flex-direction: column;
+    margin: 50px;
+    text-shadow: 20px;
+}
+
+.text h1 {
+    font-size: 55px;
+}
+
+.photo {
+    display: flex;
+    margin: 20px;
+}
+
+.photo img {
+    height: 27em;
+}
+
+.slogo1 {
+    padding: 10px 0px 15px 0px; 
+}
+
+.slogo1 img {
+    height: 30px;
+    margin: 0px 10px 5px 10px;
+    flex-direction: row;
+}
+
+.about {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    background-color: black;
+    background-image: url(/img/ytbg.jpg);
+    background-size: contain;
+    box-shadow: 0px 0 38px 61px black;
+    font-family: arialRound;
+    margin: 60px 0 60px 0px;
+}
+
+.d1 p {
+    font-family: varela;
+    font-size: 18.5px;
+
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 50vh;
+    padding-left: 187px;
+    margin-top: 75px;
+    margin-left: 90px;
+    margin-bottom: 75px;
+}
+
+.d1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    width: 469px;
+    background-color: #d72c2c91;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.worked {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: arialRound;
+    margin-top: 100px;
+    flex-direction: column;
+}
+
+.workimg img {
+    height: 10vh;
+    margin: 20px;
+}
+
+.contect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1c1c1c;
+    font-family: arialRound;
+    margin-top: 100px;
+    flex-direction: column;
+    background-color: #ffffffb5;
+    border-radius: 30px;
+    margin: 60px 249px 0px 249px;
+    padding: 20px;
+}
+
+.p {
+    display: contents;
+    font-family: varela;
+    font-size: 20px;
+    color: #352d2d;
+}
+
+.p1 {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    flex-direction: column;
+    font-family: varela;
+    text-align: center;
+    background-color: rgb(26, 26, 26);
+    margin-top: 45px;
+}
+
+.foot ul li {
+    list-style: none;
+}
+
+.foot ul li h1 {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.foot ul li h2 {
+    font-size: 15px;
+}
+
+.foot ul li h3 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.foot ul li h4 {
+    font-size: 15px;
+}
+
+.slogo {
+
+    padding-left: 34px;
+}
+
+.slogo img {
+    height: 30px;
+    margin: 0px 10px 5px 10px;
+    flex-direction: row;
+}
+
+.button1 {
+    padding: 10px;
+    background-color: orange;
+    border: none;
+    border-radius: 15px;
+    font-family: arialRound;
+    font-weight: bold;
+    font-size: 20px;
+    box-shadow: 0px 2px 3px 0px #796136;
+}
+.button1 a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.button2 {
+    padding: 10px;
+    background-color: #060606;
+    border: none;
+    border-radius: 15px;
+    font-family: arialRound;
+    font-weight: bold;
+    font-size: 20px;
+    box-shadow: 0px 2px 3px 0px #ff0202;
+    color: whitesmoke;
+}
+.button2 a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.button3 {
+    padding: 10px;
+    background-color: #045373;
+    border: none;
+    border-radius: 15px;
+    font-family: arialRound;
+    font-weight: bold;
+    font-size: 20px;
+    box-shadow: 0px 4px 10px 0px #000;
+}
+.button3 a{
+    color: whitesmoke;
+    text-decoration: none;
+}
