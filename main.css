@@ -5,12 +5,12 @@
 
 @font-face {
     font-family: arialRound;
-    src: url("/fonts/ARLRDBD.TTF") format("truetype");
+    src: url("fonts/ARLRDBD.TTF") format("truetype");
 }
 
 @font-face {
     font-family: varela;
-    src: url("/fonts/VarelaRound-Regular.ttf") format("truetype");
+    src: url("fonts/VarelaRound-Regular.ttf") format("truetype");
 }
 
 body {
