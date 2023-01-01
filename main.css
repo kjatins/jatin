@@ -5,12 +5,12 @@
 
 @font-face {
     font-family: arialRound;
-    src: url("/fonts/ARLRDBD.TTF") format("truetype");
+    src: url("fonts/ARLRDBD.TTF") format("truetype");
 }
 
 @font-face {
     font-family: varela;
-    src: url("/fonts/VarelaRound-Regular.ttf") format("truetype");
+    src: url("fonts/VarelaRound-Regular.ttf") format("truetype");
 }
 
 body {
@@ -25,7 +25,6 @@ header {
     align-items: center;
     height: fit-content;
 }
-
 .menu {
     color: rgb(255, 255, 255);
     display: flex;
@@ -144,7 +143,7 @@ header {
     margin: 20px;
 }
 
-.contect {
+.contact {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -206,9 +205,9 @@ header {
     font-size: 15px;
 }
 
-.slogo {
+.foot ul{
+    padding: 0px;
 
-    padding-left: 34px;
 }
 
 .slogo img {
@@ -219,7 +218,7 @@ header {
 
 .button1 {
     padding: 10px;
-    background-color: orange;
+    background-color: rgb(216, 157, 47);
     border: none;
     border-radius: 15px;
     font-family: arialRound;

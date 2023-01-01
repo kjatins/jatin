@@ -1,0 +1,68 @@
+.menulogo {
+  display: inline-block;
+  filter: invert(100%);
+}
+.checkbtn {
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 25px;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+@media (max-width: 420px) {
+  .menu ul li a {
+    font-size: 16px;
+  }
+  header{
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width: 420px) {
+  .checkbtn {
+    display: block;
+    position: fixed;
+    margin-right: 80px;
+  }
+  header{
+    background-color: #000000c2;
+  }
+
+  .menu ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #000000c2;
+    top: 20px;
+    right: -120%;
+    text-align: center;
+    transition: all .5s;
+  }
+
+  .menu ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+
+  .menu ul li a {
+    font-size: 20px;
+  }
+
+  .menu ul li a:hover a.active {
+    background: none;
+    color: #0082e6;
+  }
+
+  #check:checked~ul {
+    right: 0;
+    
+  }
+}

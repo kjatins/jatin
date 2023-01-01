@@ -1,0 +1,134 @@
+@media (max-width: 420px) {
+    .home {
+        display: flex;
+        flex-flow: column-reverse;
+        width: 100vw;
+    }
+
+    .text {
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+
+    }
+
+    .text h1 {
+        font-size: 10vw;
+    }
+
+    .text p {
+        text-align: center;
+        font-size: 3vw;
+    }
+
+    .d1 h1 {
+        font-size: 5.5vw;
+    }
+
+    .d1 p {
+        font-size: 3.4vw;
+    }
+
+    .worked h1 {
+        font-size: 5.5vw;
+    }
+
+    .contact h1 {
+        font-size: 5.5vw;
+    }
+
+    .p {
+        font-size: 3.4vw;
+    }
+
+    .foot ul li h1 {
+        font-size: 3.4vw;
+    }
+
+    .foot ul li h2 {
+        font-size: 3.4vw;
+    }
+
+    .foot ul li h3 {
+        font-size: 3.4vw;
+    }
+
+    .foot ul li h4 {
+        font-size: 3.4vw;
+    }
+
+    .button2 {
+        font-size: 3.4vw;
+    }
+
+    .button3 {
+        font-size: 3.4vw;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .d1 {
+        width: 100vw;
+    }
+
+    .worked {
+        width: 100vw;
+
+    }
+
+    .foot {
+        width: 100vw;
+    }
+
+    .foot ul .slogo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+    }
+}
+
+@media (max-width: 420px) {
+    .photo {
+        margin: 0px;
+        height: fit-content;
+    }
+
+    .photo img {
+        margin-top: 70px;
+        height: 35vh;
+    }
+
+    .workimg img {
+        height: 4.5vh;
+    }
+
+    .worked {
+        margin-bottom: 50px;
+    }
+
+    .slogo img {
+        height: 2.5vh;
+    }
+
+    .slogo1 img {
+        height: 2.5vh;
+    }
+}
+
+@media (max-width: 420px) {
+    .about {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .contact {
+        margin: 0px 15px 0px 15px;
+        padding: 0px;
+        padding-bottom: 15px;
+    }
+    .button1{
+        font-size: 3.4vw;
+    }
+}
