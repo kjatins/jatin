@@ -66,3 +66,39 @@
     
   }
 }
+
+@media (min-width:300px)and (max-width: 450px)  and (-webkit-max-device-pixel-ratio: 4){
+  .side{
+    background-image: none;
+    height: 16%;
+    align-items: flex-end;
+  }
+  #bt2{
+    background-image: linear-gradient(to right,rgb(9, 14, 18)22%,red 130%);
+    border-radius: 0px;
+  }
+  #into1{
+    font-size: 8px;
+  }
+  #imge{
+    height: 20px;
+  }
+  .con{
+    height: 60vh;
+  }
+}
+@media (min-width:150px)and (max-width: 300px)  and (-webkit-max-device-pixel-ratio: 4){
+  .container{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .card{
+    height: auto;
+    width: auto;
+  }
+  .card img {
+    width: 44vw;
+    padding: 15px;
+  }
+}
